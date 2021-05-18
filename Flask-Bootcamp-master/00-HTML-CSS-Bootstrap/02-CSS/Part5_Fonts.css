@@ -1,0 +1,38 @@
+/*Fonts on Windows:
+https://en.wikipedia.org/wiki/List_of_typefaces_included_with_Microsoft_Windows
+Fonts on Macs:
+https://en.wikipedia.org/wiki/List_of_typefaces_included_with_macOSfon
+General Font Information:
+http://www.cssfontstack.com/*/
+
+
+body{
+  background: url("puppy_pic.jpg");
+  background-repeat: no-repeat ;
+  font-size: 20px;
+}
+
+h1{
+  /*font-family:'Bungee Shade';*/
+  font-family: 'Zen Dots', cursive;;
+  text-align: center;
+}
+
+p{
+  font-family: monospace;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+
+#two{
+  font-size: 2.0em;
+}
+
+/*If you want to use your own downloaded custom fonts:*/
+
+/*@font-face{
+  font-family: your_font_name;
+  src: url(path/to/woff_file.woff);
+}*/

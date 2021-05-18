@@ -1,0 +1,14 @@
+{% extends 'header_menu.html' %}
+
+
+{% block content %}
+	<ul>
+		{% for pup in pup_list %}
+			<li>
+				{{ pup }}
+			</li>
+		{% endfor %}
+	</ul>
+
+
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+	<form method="post">
+
+		{#	email = #}
+		{#password#}
+		{#submit =#}
+
+		{{ form.hidden_tag() }}
+		<div class="mb-3">
+			{{ form.email.label(class="form-label") }} {{ form.email(class="form-control") }}
+		</div>
+		{#		<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div><br>#}
+		<div class="mb-3">
+			{{ form.password.label(class="form-label") }} {{ form.password(class="form-control") }}
+		</div>
+		{{ form.submit }} <br>
+
+	</form>
+
+{% endblock %}

@@ -1,0 +1,27 @@
+/*Lots of Selector Types, check out these links*/
+
+/*  http://www.w3schools.com/cssref/css_selectors.asp */
+/*  https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors  */
+/*  https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors */
+/*Class selectors start with a dot . */
+
+body {
+  background: url(https://upload.wikimedia.org/wikipedia/commons/6/64/The_Puppy.jpg) no-repeat;
+}
+
+.firstDiv{
+  color: blue;
+}
+
+.secondDiv{
+  background-color: gray;
+}
+
+/* Use an id to single out html elements*/
+
+/* id selectors use a hashtag # */
+#singledout{
+  color: red;
+  background: #D3D3D3;
+  text-decoration: underline;
+}

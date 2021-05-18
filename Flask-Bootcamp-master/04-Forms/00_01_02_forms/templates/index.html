@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>main</title>
+</head>
+<body>
+
+<h1>next lesson:</h1>
+
+<form method="post">
+	{{ form.hidden_tag() }}
+
+	{{ form.lesson_name.label }}{{ form.lesson_name }}
+	<br>
+	{{ form.is_published.label }}{{ form.is_published }}
+	<br>
+	{{ form.task_type.label }}{{ form.task_type }}
+	<br>
+	{{ form.active_words.label }}{{ form.active_words }}
+	<br>
+	any other feedback?
+	{#{{ form.feedsmack.label }}#} {{ form.feedsmack }}
+	<br>
+	{{ form.submit() }}
+
+
+</form>
+
+</body>
+</html>

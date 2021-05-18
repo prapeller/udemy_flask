@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Forms basics</title>
+</head>
+<body>
+
+<form action="http://www.google.com" method="get"><h1>please input your email and pass</h1>
+	<label for="emailtag">EMAIL</label>
+<!--	<input id="emailtag" type="email" name="useremail" value="email here"> -->
+	<input id="emailtag" type="email" name="useremail" placeholder="email here">
+	<br>
+	<label for="passtag">PASSWORD</label>
+	<input id="passtag" type="password" name="userpass" placeholder="password">
+	<br>
+	<input type="submit" value="enter">
+</form>
+
+<form>
+	<h2>Question: Do you have a dog?</h2>
+	<label for="yes">Yes</label>
+	<input type="radio" id="yes" name="dog_choice" value="yes">
+
+	<label for="no">No</label>
+	<input type="radio" id="no" name="dog_choice" value="no">
+
+	<label for="dont_remember">Don't remember</label>
+	<input type="radio" id="dont_remember" name="dog_choice" value="dont_remember">
+	<br>
+	<br>
+	<br>
+
+	<h2>How clean is your house? <br>
+		Choose at drop-down menu (1-4):</h2>
+
+	<select name="room" id="">
+		<option value="Very clean">4</option>
+		<option value="Clean enough">3</option>
+		<option value="Not so clean enough">2</option>
+		<option value="Need to clean">1</option>
+	</select>
+
+	<p>Any other comments?</p>
+	<textarea name="feedback" id="user_comments" cols="50" rows="10" placeholder="your text here"></textarea>
+	<br>
+	<input type="submit" name="feedback" value="Submit feedback" >
+</form>
+
+</body>
+</html>

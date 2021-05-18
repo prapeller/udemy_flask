@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+	{% if current_user.is_authenticated %}
+		<h1>This is Login testing site, {{ current_user.username }}!</h1>
+	{% else %}
+		<h1>This is Login testing site, try to go to MyPage or Loging or Register!</h1>
+	{% endif %}
+
+
+{% endblock %}
